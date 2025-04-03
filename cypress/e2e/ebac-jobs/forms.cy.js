@@ -2,7 +2,7 @@
 
 describe('Tests for application page - Forms', () => {
     beforeEach(() => {
-        cy.visit('https://ebac-jobs-e2e.vercel.app/')
+        cy.visit('https://agenda-contatos-react.vercel.app/')
     })
     it('Should bring the user to the applications forms', () => {
         cy.wait(1000)
