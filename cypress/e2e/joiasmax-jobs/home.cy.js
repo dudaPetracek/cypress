@@ -2,7 +2,7 @@
 
 describe('JoiasMax Jobs - Home', () => {
     beforeEach(() => {
-        cy.visit('https://agenda-contatos-react.vercel.app/')
+        cy.visit('https://base-css-in-js.vercel.app/')
     })
     it('Should display 7 jobs', () => {
         cy.wait(1000)
